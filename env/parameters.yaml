@@ -1,0 +1,10 @@
+adminUser:
+  password: local:trial2/adminUser:password
+  username: jenkins-x-space
+enableDocker: false
+pipelineUser:
+  email: karadelamarck@gmail.com
+  token: local:trial2/pipelineUser:token
+  username: j-bot-jx
+prow:
+  hmacToken: local:trial2/prow:hmacToken
