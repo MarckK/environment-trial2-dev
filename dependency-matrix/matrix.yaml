@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: jenkins-x-space
+  repo: go-1
+  url: https://github.com/jenkins-x-space/go-1.git
+  version: ""
+  versionURL: ""

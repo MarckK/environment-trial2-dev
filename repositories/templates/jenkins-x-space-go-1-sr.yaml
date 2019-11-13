@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jenkins-x-space
+    provider: github
+    repository: go-1
+  name: jenkins-x-space-go-1
+spec:
+  description: Imported application for jenkins-x-space/go-1
+  httpCloneURL: https://github.com/jenkins-x-space/go-1.git
+  org: jenkins-x-space
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: go-1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/jenkins-x-space/go-1.git
